@@ -1,7 +1,7 @@
 <?php
     try
     {
-       $bdd = new PDO("mysql:host=localhost;dbname=m2l;charset=utf8","root",""); // connection bdd
+       $bdd = new PDO("mysql:host=http://172.16.0.3;dbname=csembres;charset=utf8","csembres","7Xayctvf!"); // connection bdd
     }
     catch(Exception $e)
     {
